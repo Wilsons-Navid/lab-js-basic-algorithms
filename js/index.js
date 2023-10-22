@@ -61,3 +61,16 @@ sed dolor posuere, cursus risus quis, dictum justo. Mauris imperdiet ac odio qui
  console.log(generatedLypsum.length)
 
  console.log(generatedLypsum.match(/et/g).length)
+
+
+ let phraseToCheck = 'dad'
+
+  let revPhraseToCheck = phraseToCheck.split('').reverse('').join('');
+  console.log(revPhraseToCheck)
+
+  if (phraseToCheck === revPhraseToCheck){
+    console.log('it is a palindrom')
+  }
+  else{
+    console.log('It is not a palindrome')
+  }
